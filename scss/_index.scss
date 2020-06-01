@@ -1,0 +1,271 @@
+.bannerImg {
+    background-image: url(../w3/banner.png);
+    height: 840px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    .bannertitle {
+        color: #650300;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-right: 18.75%;
+    }
+    h2 {
+        font-size: 36px;
+        font-family: 蘋方-繁;
+        font-weight: 500;
+        line-height: 54px;
+    }
+    h1 {
+        font-size: 64px;
+        font-family: 蘋方-繁;
+        font-weight: 500;
+        line-height: 96px;
+    }
+}
+
+.subtitle {
+    color: #650300;
+    font-size: 48px;
+    font-family: 蘋方-繁;
+    font-weight: 600;
+    line-height: 72px; 
+    text-align: center;
+}
+
+.intro {
+    background-color: #AA06010D;
+    padding-top: 64px;
+    height: 544px;
+    display: flex;
+    flex-direction: column;
+    .subtitle {
+        margin-bottom: 64px;
+    }
+}
+
+.icons {
+    width: 62.5%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    .iconArea {
+        width: 282px;
+        height: 289px;
+        padding: 0 37px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img {
+            height: 100px;
+            width: 100px;
+            margin-bottom: 40px;
+        }
+        h3 {
+        color: #650300;
+        font-size: 24px;
+        font-family: 蘋方-繁;
+        font-weight: 500;
+        line-height: 36px; 
+        text-align: center;
+        margin-bottom: 4px;
+        }
+        p {
+        font-size: 16px;
+        font-family: 蘋方-繁;
+        font-weight: 400;
+        line-height: 24px; 
+        }
+    }
+}
+
+.classic {
+    display: flex;
+    flex-direction: column;
+    width: 62.5%;;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    .subtitle {
+        margin-top: 64px;
+        margin-bottom: 60px;
+    }
+    .classicOption {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 32px;
+        img {
+            margin-left: 24px;
+        }
+    }
+    .reverse {
+        flex-direction: row-reverse;
+    }
+    .classicTitle {
+        color: #AA0601;
+        font-size: 48px;
+        font-family: Roboto;
+        font-weight: 900;
+        font-style: italic;
+        line-height: 72px; 
+        text-transform: uppercase;
+        display: inline-block;
+        margin-left: 8px;
+    }
+}
+
+.feat {
+    background-image: url(../w3/bg.png);
+    height: 2162px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .subtitle {
+        color: #ffffff;
+        padding-top: 64px;
+        margin-bottom: 60px;
+    }
+    .featLayout {
+        display: flex;
+        width: 82.15%;
+        img {
+            padding: 4px;
+        }
+        .colLeft {
+            height: 848px;
+        }
+        .colRight {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .product7 {
+            height: 203px;
+        }
+    }
+    .featCard {
+        display: flex;
+        margin-top: 60px;
+        .card {
+            width: 585px;
+            height: 592px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card1 {
+            background-image: url(../w3/product-8.png);
+            margin-right: 30px;
+        }
+        .card2 {
+            background-image: url(../w3/product-9.png);  
+        }
+        h3 {
+            color: #AA0601;
+            font-size: 72px;
+            font-family: Roboto;
+            font-weight: 700;
+            line-height: 108px; 
+        }
+    }
+}
+
+.client {
+    margin-top: -335px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+    .subtitle {
+        color: #ffffff;
+        margin-bottom: 60px;
+    }
+    .people {
+        margin: 0 auto;
+        display: flex;
+        width: 82.15%;
+        justify-content: space-between;
+    }
+    .person {
+        width: 20%;
+        .name {
+            font-size: 16px;
+            font-family: Roboto;
+            font-weight: 500;
+            line-height: 21px; 
+        }
+        .rec {
+            font-size: 16px;
+            font-family: Roboto;
+            font-weight: 400;
+            line-height: 24px; 
+        }
+        .updated {
+            color: #707070;
+            font-size: 16px;
+            font-family: Roboto;
+            font-weight: 400;
+            line-height: 21px;
+        }
+    }
+    img, .name, .rec {
+        margin-bottom: 16px;
+    }
+
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    background-color: #AA06010D;
+    .subtitle {
+        padding-top: 64px;
+        padding-bottom: 24px;
+    }
+    form {
+        width: 792px;
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+        p {
+            margin-bottom: 20px;
+        }
+        .lable {
+            margin-bottom: 4px;
+        }
+        input[type="text"] {
+            height: 50px;
+            margin-bottom: 16px;
+        }
+        input[type="textarea"] {
+            height: 136px;
+            margin-bottom: 16px;
+        }
+        .agree {
+            display: flex;
+            margin-bottom: 58px;
+            p {
+                font-size: 16px;
+                font-family: Roboto;
+                font-weight: 400;
+                line-height: 28px; 
+                margin-bottom: 0px; 
+            }
+        }
+        input[type="checkbox"] {
+            width: 24px;
+            height: 24px;
+            margin-right: 4px;
+        }
+        input[type="submit"] {
+            width: 180px;
+            height: 54px;
+            margin: 0 auto;
+            background-color: #AA0601;
+            padding: 16px 58px;
+            color: #ffffff;
+            border: none;
+            margin-bottom: 92px;
+        }
+    }
+}
